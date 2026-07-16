@@ -2696,6 +2696,9 @@ img {
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a href="_grid_types_grid_interfaces_d_.igrid.html#sortsettings" class="tsd-kind-icon">sort<wbr>Settings</a>
 				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_grid_interfaces_d_.igrid.html#stackedflattedcolumns" class="tsd-kind-icon">stackedflatted<wbr>Columns</a>
+				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a href="_grid_types_grid_interfaces_d_.igrid.html#textwrapsettings" class="tsd-kind-icon">text<wbr>Wrap<wbr>Settings</a>
 				</li>
@@ -3058,6 +3061,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-private"><a href="_grid_types_grid_interfaces_d_.igrid.html#servicelocator" class="tsd-kind-icon">service<wbr>Locator</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_grid_interfaces_d_.igrid.html#showcolumnchooser" class="tsd-kind-icon">show<wbr>Column<wbr>Chooser</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_grid_interfaces_d_.igrid.html#sortsettings" class="tsd-kind-icon">sort<wbr>Settings</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_grid_interfaces_d_.igrid.html#stackedflattedcolumns" class="tsd-kind-icon">stackedflatted<wbr>Columns</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_grid_interfaces_d_.igrid.html#textwrapsettings" class="tsd-kind-icon">text<wbr>Wrap<wbr>Settings</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_grid_interfaces_d_.igrid.html#theme" class="tsd-kind-icon">theme</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_grid_types_grid_interfaces_d_.igrid.html#toolbar" class="tsd-kind-icon">toolbar</a></li>
@@ -6945,7 +6949,7 @@ const GridExample: React.FC = () =&gt; {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Stacked<wbr>Header<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/grid.interfaces.d.ts:2721</li>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2725</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -7428,6 +7432,21 @@ const GridExample: React.FC = () =&gt; {
 					</dl>
 				</div>
 			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="stackedflattedcolumns" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> stackedflatted<wbr>Columns</h3>
+				<div class="tsd-signature tsd-kind-icon">stackedflatted<wbr>Columns<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReactElement</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_column_interfaces_d_.icolumnbase.html" class="tsd-signature-type">IColumnBase</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/grid.interfaces.d.ts:2721</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Flattened leaf column elements shared by header and content rendering.</p>
+					</div>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 				<a name="textwrapsettings" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> text<wbr>Wrap<wbr>Settings</h3>
@@ -7632,7 +7651,7 @@ import &#39;@syncfusion/react-grids/styles/material.css&#39;;
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3179</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3183</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7670,7 +7689,7 @@ import &#39;@syncfusion/react-grids/styles/material.css&#39;;
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3267</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3271</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7701,7 +7720,7 @@ await gridRef.current?.cancelCellChanges();</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3170</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3174</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7738,7 +7757,7 @@ await gridRef.current?.cancelCellChanges();</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2995</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2999</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7789,7 +7808,7 @@ gridRef.current.cellSelectionModule.clearCellSelection([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3075</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3079</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7822,7 +7841,7 @@ gridRef.current.cellSelectionModule.clearCellSelection([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3333</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3337</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7846,7 +7865,7 @@ gridRef.current.cellSelectionModule.clearCellSelection([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2907</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2911</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7879,7 +7898,7 @@ gridRef.current.cellSelectionModule.clearCellSelection([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2915</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2919</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7903,7 +7922,7 @@ gridRef.current.cellSelectionModule.clearCellSelection([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3052</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3056</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7936,7 +7955,7 @@ gridRef.current.cellSelectionModule.clearCellSelection([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3307</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3311</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7960,7 +7979,7 @@ gridRef.current.cellSelectionModule.clearCellSelection([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3189</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3193</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -7999,7 +8018,7 @@ gridRef.current.cellSelectionModule.clearCellSelection([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3233</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3237</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8045,7 +8064,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3135</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3139</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8077,7 +8096,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3299</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3303</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8101,7 +8120,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3066</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3070</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8198,7 +8217,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2730</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2734</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8231,7 +8250,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2804</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2808</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8256,7 +8275,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3127</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3131</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8280,7 +8299,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2741</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2745</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8326,7 +8345,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2813</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2817</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8351,7 +8370,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3119</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3123</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8375,7 +8394,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2755</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2759</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8399,7 +8418,7 @@ gridRef.current?.editCell(10248, &#39;Freight&#39;);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2898</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2902</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8431,7 +8450,7 @@ console.log(&#39;Total selected:&#39;, persistData?.length);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2771</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2775</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8455,7 +8474,7 @@ console.log(&#39;Total selected:&#39;, persistData?.length);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2764</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2768</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8489,7 +8508,7 @@ console.log(&#39;Total selected:&#39;, persistData?.length);</code></pre>
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3023</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3027</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8533,7 +8552,7 @@ const selectedCells = gridRef.current.cellSelectionModule.getSelectedCellsData()
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2878</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2882</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8571,7 +8590,7 @@ if (selection &amp;&amp; typeof selection === &#39;object&#39; &amp;&amp; &#39;i
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2857</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2861</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8595,7 +8614,7 @@ if (selection &amp;&amp; typeof selection === &#39;object&#39; &amp;&amp; &#39;i
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2821</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2825</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8643,7 +8662,7 @@ if (selection &amp;&amp; typeof selection === &#39;object&#39; &amp;&amp; &#39;i
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3103</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3107</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8675,7 +8694,7 @@ if (selection &amp;&amp; typeof selection === &#39;object&#39; &amp;&amp; &#39;i
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3317</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3321</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8734,7 +8753,7 @@ if (selection &amp;&amp; typeof selection === &#39;object&#39; &amp;&amp; &#39;i
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2748</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2752</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8758,7 +8777,7 @@ if (selection &amp;&amp; typeof selection === &#39;object&#39; &amp;&amp; &#39;i
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3291</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3295</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8829,7 +8848,7 @@ const handleOpen = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3086</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3090</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8868,7 +8887,7 @@ const handleOpen = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3043</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3047</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8901,7 +8920,7 @@ const handleOpen = () =&gt; {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3252</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3256</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8937,7 +8956,7 @@ if (success) {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3156</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3160</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -8982,7 +9001,7 @@ if (success) {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3095</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3099</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9015,7 +9034,7 @@ if (success) {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2931</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2935</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9060,7 +9079,7 @@ gridRef.current.cellSelectionModule.selectCell(&#39;123&#39;, &#39;OrderID&#39;)
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2949</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2953</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9102,7 +9121,7 @@ gridRef.current.cellSelectionModule.selectCells([
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2969</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2973</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9151,7 +9170,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2831</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2835</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9190,7 +9209,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2850</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2854</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9229,7 +9248,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2840</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2844</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9262,7 +9281,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2796</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2800</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9313,7 +9332,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3111</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3115</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9345,7 +9364,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:2783</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:2787</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9413,7 +9432,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3034</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3038</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9458,7 +9477,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3325</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3329</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9490,7 +9509,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3199</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3203</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9529,7 +9548,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3207</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3211</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -9554,7 +9573,7 @@ gridRef.current.cellSelectionModule.selectCellsByRange(
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/grid.interfaces.d.ts:3216</li>
+								<li>Defined in src/grid/types/grid.interfaces.d.ts:3220</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">

@@ -2405,6 +2405,9 @@ img {
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_column_interfaces_d_.flattenedcolumn.html#leafcount" class="tsd-kind-icon">leaf<wbr>Count</a>
 				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_column_interfaces_d_.flattenedcolumn.html#totalwidth" class="tsd-kind-icon">total<wbr>Width</a>
+				</li>
 			</ul>
 		</li>
 		<li class=" tsd-kind-interface tsd-parent-kind-external-module">
@@ -2466,6 +2469,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.flattenedcolumn.html#depth" class="tsd-kind-icon">depth</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.flattenedcolumn.html#element" class="tsd-kind-icon">element</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.flattenedcolumn.html#leafcount" class="tsd-kind-icon">leaf<wbr>Count</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_column_interfaces_d_.flattenedcolumn.html#totalwidth" class="tsd-kind-icon">total<wbr>Width</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2550,6 +2554,23 @@ img {
 						<p>Number of leaf (non-stacked) columns this entry represents.
 							For a leaf column, this is 1. For a stacked parent, it is the total
 						number of descendants that produce visible content columns.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="totalwidth" class="tsd-anchor"></a>
+				<h3>total<wbr>Width</h3>
+				<div class="tsd-signature tsd-kind-icon">total<wbr>Width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/column.interfaces.d.ts:975</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Total width represented by this flattened column entry.
+							For leaf columns, this is the column width or a fallback of 100.
+						For parent columns, this is the sum of the direct child column widths.</p>
 					</div>
 				</div>
 			</section>
