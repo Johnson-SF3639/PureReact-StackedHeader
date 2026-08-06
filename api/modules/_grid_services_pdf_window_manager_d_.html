@@ -2389,13 +2389,13 @@ img {
 				<a name="pdfwindowmanager" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagPrivate">Private</span> pdf<wbr>Window<wbr>Manager</h3>
 				<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
-					<li class="tsd-signature tsd-kind-icon">pdf<wbr>Window<wbr>Manager&lt;T&gt;<span class="tsd-signature-symbol">(</span>dataSource<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, columns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">[]</span>, config<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_pdf_export_interfaces_d_.pdfexportsettings.html" class="tsd-signature-type">PdfExportSettings</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_pdf_export_interfaces_d_.pdfexportresult.html" class="tsd-signature-type">PdfExportResult</a><span class="tsd-signature-symbol">&gt;</span></li>
+					<li class="tsd-signature tsd-kind-icon">pdf<wbr>Window<wbr>Manager&lt;T&gt;<span class="tsd-signature-symbol">(</span>dataSource<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, columns<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">[]</span>, config<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_pdf_export_interfaces_d_.pdfexportsettings.html" class="tsd-signature-type">PdfExportSettings</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, groupingSettings<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>captionFormat<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"verbose"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"compact"</span><span class="tsd-signature-symbol">; </span>columns<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>enabled<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_pdf_export_interfaces_d_.pdfexportresult.html" class="tsd-signature-type">PdfExportResult</a><span class="tsd-signature-symbol">&gt;</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/services/pdf-window-manager.d.ts:13</li>
+								<li>Defined in src/grid/services/pdf-window-manager.d.ts:14</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2433,6 +2433,20 @@ img {
 								<div class="tsd-comment tsd-typography">
 									<p>The PDF export configuration</p>
 								</div>
+							</li>
+							<li>
+								<h5><span class="tsd-flag ts-flagOptional">Optional</span> groupingSettings: <span class="tsd-signature-symbol">{ </span>captionFormat<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"verbose"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"compact"</span><span class="tsd-signature-symbol">; </span>columns<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">; </span>enabled<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> }</span></h5>
+								<ul class="tsd-parameters">
+									<li class="tsd-parameter">
+										<h5>caption<wbr>Format<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"verbose"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"compact"</span></h5>
+									</li>
+									<li class="tsd-parameter">
+										<h5>columns<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+									</li>
+									<li class="tsd-parameter">
+										<h5>enabled<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></h5>
+									</li>
+								</ul>
 							</li>
 						</ul>
 						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_grid_types_pdf_export_interfaces_d_.pdfexportresult.html" class="tsd-signature-type">PdfExportResult</a><span class="tsd-signature-symbol">&gt;</span></h4>
